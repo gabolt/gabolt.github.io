@@ -9,6 +9,7 @@ div {
     background-color: white;
     margin: auto;
     width: 450px;
+    max-width: 100%;
     border: 3px solid purple;
     border-radius: 5px;
     padding: 10px;
