@@ -8,9 +8,11 @@
   </head>
 
   <body>
-      <img src="aurelia-js-logo.png" />
+      <img id="logo" src="aurelia-js-logo.png" />
+      <div id="mobile-text"> Make sure you view this demo app on a screen / window that's at least 600px wide. Thank you. </div>
       <p>Simple application made with Aurelia: Retrieving data from a server.</p>
-      <div aurelia-app="main"></div>  
-    <script src="scripts/vendor-bundle.js" data-main="aurelia-bootstrapper"></script>
+      <div id="app-body" aurelia-app="main"></div> 
+      <div id="credits">Made by Gabriel Olteanu.</div>
+    <script src="scripts/vendor-bundle.js" data-main="aurelia-bootstrapper"></script>   
   </body>
 </html>
